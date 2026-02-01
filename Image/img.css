@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(33, 241, 171);
+}
+.container{
+  min-height: 80vh;
+  width: 60%;
+  border: 8px solid rgb(35, 166, 242);
+  margin: 4rem auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 35px rgb(5, 5, 5);
+  position: relative;
+  background: url("image/1.jpg") center/cover fixed no-repeat;
+}
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    background-color: white;
+    padding: .4em .6em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    background-color: white;
+    padding: .4em .6em;
+    border-radius: 10px;
+    cursor: pointer;
+}

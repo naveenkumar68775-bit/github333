@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Table Generator</title>
+    <link rel="stylesheet" href="./sss.css">
+</head>
+
+<body>
+    <center>
+    <h2>Dynamic Table Generator</h2>
+
+    <form id="tableForm">
+        <label>
+            Number of Rows:
+            <input type="number" id="rows" required placeholder="1-20 Characters Only">
+        </label>
+
+        <label>
+            Number of Columns:
+            <input type="number" id="cols" required placeholder="1-20 Characters Only">
+        </label>
+
+        <label>
+            Cell Content Prefix:
+            <input type="text" id="prefix" placeholder="Cell">
+        </label>
+
+        <button type="submit">Generate Table</button>
+        <button type="button" id="resetBtn">Reset</button>
+    </form>
+
+    <p id="errorMsg" class="error"></p>
+
+    <div id="tableContainer"></div>
+    </center>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

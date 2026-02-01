@@ -1,0 +1,14 @@
+{
+  "electronics": [
+    { "user": "Arun", "rating": 5, "comment": "Excellent" },
+    { "user": "Bala", "rating": 3, "comment": "Average" }
+  ],
+  "books": [
+    { "user": "Giri", "rating": 4, "comment": "Nice read" },
+    { "user": "Kumar", "rating": 2, "comment": "Boring" }
+  ],
+  "fashion": [
+    { "user": "Priya", "rating": 5, "comment": "Loved it" },
+    { "user": "Rani", "rating": 4, "comment": "Good quality" }
+  ]
+}

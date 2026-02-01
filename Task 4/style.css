@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  background: white;
+  padding: 15px;
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+pre {
+  background: #eee;
+  padding: 10px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+canvas {
+  margin-top: 30px;
+}
