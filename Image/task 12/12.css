@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.head{
+    background-color: black;
+    color: white;
+}
+h2{
+    
+    background-color: rgba(255, 58, 58, 0.597);
+    display:inline;
+    margin-left: 600px;
+    padding: 10px;
+    border-style:groove;
+    font-style: oblique;
+    margin-top: 10px;
+    border-radius: 40px;
+    
+}
+.filters button {
+    margin: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.ok{
+    background-color: rgb(241, 255, 43);
+
+}
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 15px;
+    
+}
+.card {
+    width: 220px;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 8px;
+}
+.hidden {
+    display: none;
+}
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+button{
+    border-radius: 10px;
+    border: 2px solid white;
+
+    border: 1px black solid;
+
+}

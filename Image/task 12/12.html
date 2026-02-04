@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Filter</title>
+  <link rel="stylesheet" href="12.css">
+</head>
+
+<body>
+
+<h2>Conference Events</h2>
+
+<div class="filters">
+    <button onclick="showAll()" class="head">Show All</button><br><br>
+  <button onclick="filterCategory('Workshop')">Workshop</button>
+  <button onclick="filterCategory('Keynote')">Keynote</button>
+  <button onclick="filterCategory('Panel')">Panel</button><br><br><br>
+
+
+  <button class="ok" onclick="filterByTime('morning')">Morning</button>
+  <button class="ok" onclick="filterByTime('afternoon')">Afternoon</button>
+
+
+  
+</div>
+
+<div class="events" id="eventContainer"></div>
+
+
+
+
+<script src="12.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
