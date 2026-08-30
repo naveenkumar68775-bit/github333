@@ -1,0 +1,10 @@
+ol{
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+}
+button{
+    justify-content:right;
+    text-align: left ;
+}
